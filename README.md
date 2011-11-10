@@ -1,4 +1,4 @@
-#Rack::HeaderControl
+#Rack::Headercontrol
 
 Rack Middleware that allows you set/override response headers for selected paths
 
@@ -11,7 +11,7 @@ block for every condition that matches
 ##Usage
 
 ```ruby
-use Rack::HeaderControl do |change|
+use Rack::Headercontrol do |change|
   change.path '/tralala' do |headers|
     headers['X-Foo'] = 'bar'
   end

@@ -1,7 +1,7 @@
 require "rack-headercontrol/version"
 
 module Rack
-  class HeaderControl
+  class Headercontrol
     def initialize(app, &config_block)
       @app = app
       @config_block = config_block
@@ -22,6 +22,7 @@ module Rack
       end
     end
   end
+  HeaderControl = Headercontrol #Backwards-compatibility
   
   class PathRecorder
     def initialize
