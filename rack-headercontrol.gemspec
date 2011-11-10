@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "rack-headercontrol/version"
+require "rack/headercontrol"
 
 Gem::Specification.new do |s|
   s.name        = "rack-headercontrol"

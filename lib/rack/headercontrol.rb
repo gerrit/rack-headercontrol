@@ -1,7 +1,7 @@
-require "rack-headercontrol/version"
-
 module Rack
   class Headercontrol
+    VERSION = "0.0.2"
+    
     def initialize(app, &config_block)
       @app = app
       @config_block = config_block
