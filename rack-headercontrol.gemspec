@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["gerrit@gerritkaiser.de"]
   s.homepage    = 'http://github.com/gerrit/rack-headercontrol'
   s.summary     = 'Rack Middleware that allows you set/override response headers for selected paths'
-  s.description = ''
+  s.description = 'Can be used e.g. to set CORS headers or selective caching of resources'
 
   s.rubyforge_project = 'rack-headercontrol'
 
